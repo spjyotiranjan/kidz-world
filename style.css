@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+nav,main{
+    padding: 0px 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    align-items: center;
+}
+#logo>img,#cart-items>img{
+    height: 30px;
+    width: auto;
+}
+#cart-items{
+    display: flex;
+    align-items: center;
+}
+header{
+    background-image: url("assets/kw-background.png");
+    background-size: cover;
+    height: 500px;
+    line-height: 70px;
+}
+header>h1, header>p,#maker>h4,#credits>h4,#credits>p,#maker>img{
+    padding: 0px 70px;
+    color: white;
+    font-weight: bold;
+}
+header>h1{
+    font-size: 60px;
+    padding-top: 100px;
+}
+main{
+    margin: 150px 0px;
+}
+#dnb,#dng,#hwl{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    justify-content: space-between;
+}
+#dng,#hwl{
+    margin-top: 150px;
+}
+.heading>h3{
+    font-size: 22px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+}
+.content>h4{
+    font-size: 17px;
+}
+.content>p{
+    margin: 8px 0px;
+    color: grey;
+
+}
+.content>img{
+    height: 250px;
+    width: auto;
+}
+.price-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add{
+    display: flex;
+    color: white;
+    background-color: #6196FF;
+    height: 30px;
+    width: 60px;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 3px;
+}
+.add>img{
+    height: 20px;
+    width: auto;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#maker>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#maker>h4{
+    font-size: 22px;
+}
+#credits{
+    text-align: right;
+}
+#credits>h4{
+    padding-bottom: 5px;
+}
+#credits>p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+}
