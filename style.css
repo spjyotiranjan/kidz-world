@@ -8,6 +8,7 @@ nav,main{
     padding: 0px 70px;
 }
 nav{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     height: 55px;
