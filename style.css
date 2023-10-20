@@ -175,6 +175,7 @@ footer>div{
         width: 70vw;
         height: auto;
         margin: 0 auto;
+        text-align: center;
     }
     #dng>.product,#hwl>.product{
         display: grid;
@@ -186,6 +187,7 @@ footer>div{
         width: 70vw;
         height: auto;
         margin: 0 auto;
+        text-align: center;
     }
     footer>div>h4{
         font-size: 2vh;
