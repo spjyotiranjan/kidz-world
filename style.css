@@ -131,12 +131,6 @@ footer{
 footer>div{
     color: white;
 }
-footer>div>h4{
-    font-size: 2vh;
-}
-footer>div>p{
-    font-size: 2vh;
-}
 #maker>img{
     border-radius: 50%;
     width: 100px;
@@ -193,5 +187,10 @@ footer>div>p{
         height: auto;
         margin: 0 auto;
     }
-    
+    footer>div>h4{
+        font-size: 2vh;
+    }
+    footer>div>p{
+        font-size: 2vh;
+    }
 }
