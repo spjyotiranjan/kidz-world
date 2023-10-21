@@ -146,6 +146,9 @@ footer>div{
         column-gap: 20px;
         row-gap: 40px;
     }
+    header{
+        height: 50vh;
+    }
     #dnb>.product>.content{
         width: 28vw;
         height: auto;
@@ -164,6 +167,9 @@ footer>div{
 @media screen and (max-width: 426px) {
     .heading{
         text-align: center;
+    }
+    header{
+        height: 40vh;
     }
     #dnb>.product{
         display: grid;
